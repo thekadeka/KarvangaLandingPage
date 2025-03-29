@@ -1,0 +1,230 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  
+}
+
+
+
+.header{
+display: flex;
+justify-content: space-between;
+padding: 20px;
+background-color: gray;
+gap: 16px;
+
+}
+
+.header ul{
+display: flex;
+list-style: none;
+padding: 0;
+margin: 0;
+gap: 16px;
+margin-right: 150px;
+
+}
+.logo
+{
+    margin-left: 150px;
+
+}
+
+
+.signup {
+display: flex;
+background-color: gray;
+justify-content:center;
+height: 350px;
+
+
+
+
+
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: flex-start;
+    
+
+}
+
+/* Make less space between h1 and p */
+#text h1 {
+    margin-bottom: 4px;
+  }
+
+/* remove space above the paragraph */
+#text p {
+    margin-top: 0;
+
+}
+
+#image {
+    
+}
+
+#signup-button{
+    padding:  8px 16px;
+    background-color: darkred;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.more  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+
+.images {
+    display: flex;
+    gap: 3vw;
+    margin-top: 30px;
+
+
+    }
+
+.info img {
+    width: 200px;
+    height: 200px;
+    border: 8px solid darkred;
+    border-radius: 8px;
+
+
+   
+}
+
+.info {
+    flex: 1;
+    border: 5px;
+    text-align: center;
+    gap: 4vw;
+    max-width: 250px;
+    
+}
+
+.text {
+    width: 200px;
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: darkred;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.quote-text {
+    font-size: 20px;
+    font-style: italic;
+    max-width: 600px;
+    
+    
+    }
+
+.who {
+    font-weight: 700;
+    margin-right: 20px;
+}
+    
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+   
+}
+
+
+
+
+.CTA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+
+}
+
+
+.box {
+display: flex;
+width: 700px;
+height: 100px;
+background-color: darkred;
+border-radius: 8px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
+
+}
+
+
+
+
+
+
+
+.box button {
+  background-color: darkred;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 50px;
+  width: 80px;
+  height: 40px;
+
+
+
+}
+
+#head {
+    font-size: 20px;
+    margin-bottom: 4px;
+    font-weight: 700;
+    
+
+    
+    
+
+}
+
+#sub {
+    margin-top: 0;
+
+}
+
+.footer {
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+
+}
